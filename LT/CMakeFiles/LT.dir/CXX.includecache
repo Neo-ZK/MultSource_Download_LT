@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/usr/project/gitProject/MultSource_Download_LT/LT/matrix.cpp
+matrix.h
+/usr/project/gitProject/MultSource_Download_LT/LT/matrix.h
+
+/usr/project/gitProject/MultSource_Download_LT/LT/matrix.h
+stdio.h
+-
+memory
+-
+vector
+-
+string.h
+-
+
