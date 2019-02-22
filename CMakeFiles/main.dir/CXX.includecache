@@ -11,7 +11,21 @@ iostream
 -
 LT/matrix.h
 -
+LT/LTsender.h
+-
 string.h
+-
+
+LT/LTsender.h
+matrix.h
+LT/matrix.h
+vector
+-
+string
+-
+math.h
+-
+time.h
 -
 
 LT/matrix.h
@@ -24,5 +38,7 @@ vector
 string.h
 -
 assert.h
+-
+math.h
 -
 

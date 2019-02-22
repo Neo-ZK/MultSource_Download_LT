@@ -125,6 +125,33 @@ LT/fast:
 	cd /usr/project/gitProject/MultSource_Download_LT && $(MAKE) -f LT/CMakeFiles/LT.dir/build.make LT/CMakeFiles/LT.dir/build
 .PHONY : LT/fast
 
+LTsender.o: LTsender.cpp.o
+
+.PHONY : LTsender.o
+
+# target to build an object file
+LTsender.cpp.o:
+	cd /usr/project/gitProject/MultSource_Download_LT && $(MAKE) -f LT/CMakeFiles/LT.dir/build.make LT/CMakeFiles/LT.dir/LTsender.cpp.o
+.PHONY : LTsender.cpp.o
+
+LTsender.i: LTsender.cpp.i
+
+.PHONY : LTsender.i
+
+# target to preprocess a source file
+LTsender.cpp.i:
+	cd /usr/project/gitProject/MultSource_Download_LT && $(MAKE) -f LT/CMakeFiles/LT.dir/build.make LT/CMakeFiles/LT.dir/LTsender.cpp.i
+.PHONY : LTsender.cpp.i
+
+LTsender.s: LTsender.cpp.s
+
+.PHONY : LTsender.s
+
+# target to generate assembly for a file
+LTsender.cpp.s:
+	cd /usr/project/gitProject/MultSource_Download_LT && $(MAKE) -f LT/CMakeFiles/LT.dir/build.make LT/CMakeFiles/LT.dir/LTsender.cpp.s
+.PHONY : LTsender.cpp.s
+
 matrix.o: matrix.cpp.o
 
 .PHONY : matrix.o
@@ -161,6 +188,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LT"
+	@echo "... LTsender.o"
+	@echo "... LTsender.i"
+	@echo "... LTsender.s"
 	@echo "... matrix.o"
 	@echo "... matrix.i"
 	@echo "... matrix.s"

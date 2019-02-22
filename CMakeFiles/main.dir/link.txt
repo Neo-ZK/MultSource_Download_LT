@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/main.dir/main.cpp.o  -o main LT/libLT.a 
+/usr/bin/c++   -O0 -Wall -g -ggdb  -rdynamic CMakeFiles/main.dir/main.cpp.o  -o main LT/libLT.a 

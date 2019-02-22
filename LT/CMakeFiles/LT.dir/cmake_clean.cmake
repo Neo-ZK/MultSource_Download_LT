@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/LT.dir/LTsender.cpp.o"
   "CMakeFiles/LT.dir/matrix.cpp.o"
   "libLT.pdb"
   "libLT.a"

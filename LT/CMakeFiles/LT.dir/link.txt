@@ -1,2 +1,2 @@
-/usr/bin/ar qc libLT.a  CMakeFiles/LT.dir/matrix.cpp.o
+/usr/bin/ar qc libLT.a  CMakeFiles/LT.dir/LTsender.cpp.o CMakeFiles/LT.dir/matrix.cpp.o
 /usr/bin/ranlib libLT.a

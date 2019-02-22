@@ -5,6 +5,7 @@
 #include<vector>
 #include<string.h>
 #include<assert.h>
+#include <math.h>
 
 //statement of matrix of generate vector
 class Vector_g{
@@ -54,7 +55,7 @@ public:
 class Vector_content{
 
 public:
-    Vector_content(int col):col_(col){
+    Vector_content(unsigned int col):col_(col){
         printf("create Vector_content,\n");
         vContent_ = new unsigned char[col];
     };
@@ -64,7 +65,7 @@ public:
     };
 
 public:
-    int col_;
+    unsigned int col_;
     unsigned char* vContent_;
 
 public:
@@ -100,4 +101,9 @@ public:
     std::shared_ptr<Vector_content>& operator[](int rowIndex);
 };
 
+
+
 #endif // MATRIX_H_INCLUDED
+
+
+

@@ -16,7 +16,7 @@ std::shared_ptr<Vector_g>& Matrix_g::operator[](int rowIndex){
 //content vector and Matrix
 int Vector_content::setValue(char* src,int len){
     if(len != col_){
-        return 0;
+        return -1;
     }else{
         memcpy(&(*vContent_),src,len);
         return 1;
@@ -25,7 +25,7 @@ int Vector_content::setValue(char* src,int len){
 
 int Matrix_content::setVectorContent(int rowIndex,char* src,int len){
     if(rowIndex < 0 || rowIndex > row_ || col_ != len){
-        return 0;
+        return -1;
     }else{
         return mContent_[rowIndex]->setValue(src,len);
     }
@@ -33,7 +33,7 @@ int Matrix_content::setVectorContent(int rowIndex,char* src,int len){
 
 int Matrix_content::setVectorContent(int rowIndex,std::shared_ptr<Vector_content> v){
     if(rowIndex < 0 || rowIndex > row_ || col_ != v->col_){
-        return 0;
+        return -1;
     }else{
         mContent_[rowIndex] = v;
         return 1;
@@ -54,3 +54,7 @@ std::shared_ptr<Vector_content>& Matrix_content::operator[](int rowIndex){
     assert(rowIndex < row_);
     return mContent_[rowIndex];
 }
+
+
+
+

@@ -57,9 +57,22 @@ include LT/CMakeFiles/LT.dir/progress.make
 # Include the compile flags for this target's objects.
 include LT/CMakeFiles/LT.dir/flags.make
 
+LT/CMakeFiles/LT.dir/LTsender.cpp.o: LT/CMakeFiles/LT.dir/flags.make
+LT/CMakeFiles/LT.dir/LTsender.cpp.o: LT/LTsender.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/project/gitProject/MultSource_Download_LT/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object LT/CMakeFiles/LT.dir/LTsender.cpp.o"
+	cd /usr/project/gitProject/MultSource_Download_LT/LT && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LT.dir/LTsender.cpp.o -c /usr/project/gitProject/MultSource_Download_LT/LT/LTsender.cpp
+
+LT/CMakeFiles/LT.dir/LTsender.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LT.dir/LTsender.cpp.i"
+	cd /usr/project/gitProject/MultSource_Download_LT/LT && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/project/gitProject/MultSource_Download_LT/LT/LTsender.cpp > CMakeFiles/LT.dir/LTsender.cpp.i
+
+LT/CMakeFiles/LT.dir/LTsender.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LT.dir/LTsender.cpp.s"
+	cd /usr/project/gitProject/MultSource_Download_LT/LT && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/project/gitProject/MultSource_Download_LT/LT/LTsender.cpp -o CMakeFiles/LT.dir/LTsender.cpp.s
+
 LT/CMakeFiles/LT.dir/matrix.cpp.o: LT/CMakeFiles/LT.dir/flags.make
 LT/CMakeFiles/LT.dir/matrix.cpp.o: LT/matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/project/gitProject/MultSource_Download_LT/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object LT/CMakeFiles/LT.dir/matrix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/project/gitProject/MultSource_Download_LT/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object LT/CMakeFiles/LT.dir/matrix.cpp.o"
 	cd /usr/project/gitProject/MultSource_Download_LT/LT && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LT.dir/matrix.cpp.o -c /usr/project/gitProject/MultSource_Download_LT/LT/matrix.cpp
 
 LT/CMakeFiles/LT.dir/matrix.cpp.i: cmake_force
@@ -72,15 +85,17 @@ LT/CMakeFiles/LT.dir/matrix.cpp.s: cmake_force
 
 # Object files for target LT
 LT_OBJECTS = \
+"CMakeFiles/LT.dir/LTsender.cpp.o" \
 "CMakeFiles/LT.dir/matrix.cpp.o"
 
 # External object files for target LT
 LT_EXTERNAL_OBJECTS =
 
+LT/libLT.a: LT/CMakeFiles/LT.dir/LTsender.cpp.o
 LT/libLT.a: LT/CMakeFiles/LT.dir/matrix.cpp.o
 LT/libLT.a: LT/CMakeFiles/LT.dir/build.make
 LT/libLT.a: LT/CMakeFiles/LT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/usr/project/gitProject/MultSource_Download_LT/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libLT.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/usr/project/gitProject/MultSource_Download_LT/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libLT.a"
 	cd /usr/project/gitProject/MultSource_Download_LT/LT && $(CMAKE_COMMAND) -P CMakeFiles/LT.dir/cmake_clean_target.cmake
 	cd /usr/project/gitProject/MultSource_Download_LT/LT && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LT.dir/link.txt --verbose=$(VERBOSE)
 

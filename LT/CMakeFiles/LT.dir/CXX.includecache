@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/usr/project/gitProject/MultSource_Download_LT/LT/LTsender.cpp
+LTsender.h
+/usr/project/gitProject/MultSource_Download_LT/LT/LTsender.h
+
+/usr/project/gitProject/MultSource_Download_LT/LT/LTsender.h
+matrix.h
+/usr/project/gitProject/MultSource_Download_LT/LT/matrix.h
+vector
+-
+string
+-
+math.h
+-
+time.h
+-
+
 /usr/project/gitProject/MultSource_Download_LT/LT/matrix.cpp
 matrix.h
 /usr/project/gitProject/MultSource_Download_LT/LT/matrix.h
@@ -20,5 +36,7 @@ vector
 string.h
 -
 assert.h
+-
+math.h
 -
 
