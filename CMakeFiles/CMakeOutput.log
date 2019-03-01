@@ -2,7 +2,7 @@ The system is: Linux - 3.10.0-514.el7.x86_64 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
-Id flags:  
+Id flags: 
 
 The output was:
 0
@@ -10,12 +10,12 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/3.12.0-rc1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/3.6.0/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
 Build flags: 
-Id flags:  
+Id flags: 
 
 The output was:
 0
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/3.12.0-rc1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/3.6.0/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp
+Change Dir: /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_83c2e/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_83c2e.dir/build.make CMakeFiles/cmTC_83c2e.dir/build
-gmake[1]: Entering directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_83c2e.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_83c2e.dir/testCCompiler.c.o   -c /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_83c2e
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83c2e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_83c2e.dir/testCCompiler.c.o  -o cmTC_83c2e 
-gmake[1]: Leaving directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_b1dcd/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b1dcd.dir/build.make CMakeFiles/cmTC_b1dcd.dir/build
+gmake[1]: Entering directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1dcd.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b1dcd.dir/testCCompiler.c.o   -c /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b1dcd
+/home/operation/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1dcd.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b1dcd.dir/testCCompiler.c.o  -o cmTC_b1dcd -rdynamic 
+gmake[1]: Leaving directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp
+Change Dir: /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_d6e63/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_d6e63.dir/build.make CMakeFiles/cmTC_d6e63.dir/build
-gmake[1]: Entering directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d6e63.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_d6e63.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.12/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_d6e63
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6e63.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_d6e63.dir/CMakeCCompilerABI.c.o  -o cmTC_d6e63 
+Run Build Command:"/usr/bin/gmake" "cmTC_df3da/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_df3da.dir/build.make CMakeFiles/cmTC_df3da.dir/build
+gmake[1]: Entering directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df3da.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_df3da.dir/CMakeCCompilerABI.c.o   -c /usr/Cpp/CppPro/ImageServer-master/Server/cmake-3.6.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_df3da
+/home/operation/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df3da.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_df3da.dir/CMakeCCompilerABI.c.o  -o cmTC_df3da -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d6e63' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d6e63 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_d6e63.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
-gmake[1]: Leaving directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_df3da' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_df3da /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_df3da.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_d6e63/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_d6e63.dir/build.make CMakeFiles/cmTC_d6e63.dir/build]
-  ignore line: [gmake[1]: Entering directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_d6e63.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_d6e63.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_d6e63]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6e63.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_d6e63.dir/CMakeCCompilerABI.c.o  -o cmTC_d6e63 ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_df3da/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_df3da.dir/build.make CMakeFiles/cmTC_df3da.dir/build]
+  ignore line: [gmake[1]: Entering directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_df3da.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_df3da.dir/CMakeCCompilerABI.c.o   -c /usr/Cpp/CppPro/ImageServer-master/Server/cmake-3.6.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_df3da]
+  ignore line: [/home/operation/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df3da.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_df3da.dir/CMakeCCompilerABI.c.o  -o cmTC_df3da -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
@@ -85,8 +85,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d6e63' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d6e63 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_d6e63.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_df3da' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_df3da /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_df3da.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -98,7 +98,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d6e63] ==> ignore
+    arg [cmTC_df3da] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
@@ -107,7 +107,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTC_d6e63.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_df3da.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -119,12 +119,16 @@ Parsed C implicit link information from above output:
     arg [--no-as-needed] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
   collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
   collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
   collapse library dir [/lib/../lib64] ==> [/lib64]
   collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
   collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
-  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit libs: [c]
   implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib]
   implicit fwks: []
 
@@ -132,17 +136,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp
+Change Dir: /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_7e8c5/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_7e8c5.dir/build.make CMakeFiles/cmTC_7e8c5.dir/build
-gmake[1]: Entering directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7e8c5.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_7e8c5.dir/feature_tests.c.o   -c /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/feature_tests.c
-Linking C executable cmTC_7e8c5
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e8c5.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7e8c5.dir/feature_tests.c.o  -o cmTC_7e8c5 
-gmake[1]: Leaving directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_1d128/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1d128.dir/build.make CMakeFiles/cmTC_1d128.dir/build
+gmake[1]: Entering directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d128.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_1d128.dir/feature_tests.c.o   -c /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1d128
+/home/operation/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d128.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1d128.dir/feature_tests.c.o  -o cmTC_1d128 -rdynamic 
+gmake[1]: Leaving directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -152,17 +156,17 @@ gmake[1]: Leaving directory `/usr/project/gitProject/MultSource_Download_LT/CMak
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp
+Change Dir: /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_14f98/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_14f98.dir/build.make CMakeFiles/cmTC_14f98.dir/build
-gmake[1]: Entering directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_14f98.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_14f98.dir/feature_tests.c.o   -c /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/feature_tests.c
-Linking C executable cmTC_14f98
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14f98.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_14f98.dir/feature_tests.c.o  -o cmTC_14f98 
-gmake[1]: Leaving directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_6a6df/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_6a6df.dir/build.make CMakeFiles/cmTC_6a6df.dir/build
+gmake[1]: Entering directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a6df.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_6a6df.dir/feature_tests.c.o   -c /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6a6df
+/home/operation/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a6df.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_6a6df.dir/feature_tests.c.o  -o cmTC_6a6df -rdynamic 
+gmake[1]: Leaving directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -172,17 +176,17 @@ gmake[1]: Leaving directory `/usr/project/gitProject/MultSource_Download_LT/CMak
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp
+Change Dir: /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_e01ef/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_e01ef.dir/build.make CMakeFiles/cmTC_e01ef.dir/build
-gmake[1]: Entering directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e01ef.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_e01ef.dir/feature_tests.c.o   -c /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e01ef
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e01ef.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e01ef.dir/feature_tests.c.o  -o cmTC_e01ef 
-gmake[1]: Leaving directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_93ef3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_93ef3.dir/build.make CMakeFiles/cmTC_93ef3.dir/build
+gmake[1]: Entering directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93ef3.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_93ef3.dir/feature_tests.c.o   -c /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/feature_tests.c
+Linking C executable cmTC_93ef3
+/home/operation/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93ef3.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_93ef3.dir/feature_tests.c.o  -o cmTC_93ef3 -rdynamic 
+gmake[1]: Leaving directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -190,30 +194,30 @@ gmake[1]: Leaving directory `/usr/project/gitProject/MultSource_Download_LT/CMak
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp
+Change Dir: /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_271f5/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_271f5.dir/build.make CMakeFiles/cmTC_271f5.dir/build
-gmake[1]: Entering directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_271f5.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_271f5.dir/testCXXCompiler.cxx.o -c /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_271f5
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_271f5.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_271f5.dir/testCXXCompiler.cxx.o  -o cmTC_271f5 
-gmake[1]: Leaving directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_adb18/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_adb18.dir/build.make CMakeFiles/cmTC_adb18.dir/build
+gmake[1]: Entering directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_adb18.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_adb18.dir/testCXXCompiler.cxx.o -c /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_adb18
+/home/operation/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adb18.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_adb18.dir/testCXXCompiler.cxx.o  -o cmTC_adb18 -rdynamic 
+gmake[1]: Leaving directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp
+Change Dir: /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_94a58/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_94a58.dir/build.make CMakeFiles/cmTC_94a58.dir/build
-gmake[1]: Entering directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_94a58.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_94a58.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_94a58
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94a58.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_94a58.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_94a58 
+Run Build Command:"/usr/bin/gmake" "cmTC_ddd63/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ddd63.dir/build.make CMakeFiles/cmTC_ddd63.dir/build
+gmake[1]: Entering directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ddd63.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_ddd63.dir/CMakeCXXCompilerABI.cpp.o -c /usr/Cpp/CppPro/ImageServer-master/Server/cmake-3.6.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_ddd63
+/home/operation/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddd63.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_ddd63.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ddd63 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
@@ -223,23 +227,23 @@ Thread model: posix
 gcc version 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_94a58' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_94a58 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_94a58.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
-gmake[1]: Leaving directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ddd63' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ddd63 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_ddd63.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_94a58/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_94a58.dir/build.make CMakeFiles/cmTC_94a58.dir/build]
-  ignore line: [gmake[1]: Entering directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_94a58.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_94a58.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_94a58]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94a58.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_94a58.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_94a58 ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_ddd63/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_ddd63.dir/build.make CMakeFiles/cmTC_ddd63.dir/build]
+  ignore line: [gmake[1]: Entering directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ddd63.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_ddd63.dir/CMakeCXXCompilerABI.cpp.o -c /usr/Cpp/CppPro/ImageServer-master/Server/cmake-3.6.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_ddd63]
+  ignore line: [/home/operation/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddd63.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_ddd63.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ddd63 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
@@ -249,8 +253,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_94a58' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_94a58 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_94a58.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ddd63' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ddd63 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_ddd63.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -262,7 +266,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_94a58] ==> ignore
+    arg [cmTC_ddd63] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
@@ -271,7 +275,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTC_94a58.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_ddd63.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -281,12 +285,16 @@ Parsed CXX implicit link information from above output:
     arg [-lgcc] ==> lib [gcc]
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
   collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
   collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
   collapse library dir [/lib/../lib64] ==> [/lib64]
   collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
   collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
-  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit libs: [stdc++;m;c]
   implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib]
   implicit fwks: []
 
@@ -294,17 +302,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
-Change Dir: /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp
+Change Dir: /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_d0c74/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_d0c74.dir/build.make CMakeFiles/cmTC_d0c74.dir/build
-gmake[1]: Entering directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d0c74.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_d0c74.dir/feature_tests.cxx.o -c /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d0c74
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0c74.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d0c74.dir/feature_tests.cxx.o  -o cmTC_d0c74 
-gmake[1]: Leaving directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_30b05/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_30b05.dir/build.make CMakeFiles/cmTC_30b05.dir/build
+gmake[1]: Entering directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_30b05.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++1y -o CMakeFiles/cmTC_30b05.dir/feature_tests.cxx.o -c /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_30b05
+/home/operation/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30b05.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_30b05.dir/feature_tests.cxx.o  -o cmTC_30b05 -rdynamic 
+gmake[1]: Leaving directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -367,17 +375,17 @@ gmake[1]: Leaving directory `/usr/project/gitProject/MultSource_Download_LT/CMak
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp
+Change Dir: /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_e22ca/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_e22ca.dir/build.make CMakeFiles/cmTC_e22ca.dir/build
-gmake[1]: Entering directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e22ca.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_e22ca.dir/feature_tests.cxx.o -c /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_e22ca
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e22ca.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e22ca.dir/feature_tests.cxx.o  -o cmTC_e22ca 
-gmake[1]: Leaving directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_034ea/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_034ea.dir/build.make CMakeFiles/cmTC_034ea.dir/build
+gmake[1]: Entering directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_034ea.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_034ea.dir/feature_tests.cxx.o -c /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_034ea
+/home/operation/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_034ea.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_034ea.dir/feature_tests.cxx.o  -o cmTC_034ea -rdynamic 
+gmake[1]: Leaving directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -440,17 +448,17 @@ gmake[1]: Leaving directory `/usr/project/gitProject/MultSource_Download_LT/CMak
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp
+Change Dir: /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_a7984/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_a7984.dir/build.make CMakeFiles/cmTC_a7984.dir/build
-gmake[1]: Entering directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a7984.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_a7984.dir/feature_tests.cxx.o -c /usr/project/gitProject/MultSource_Download_LT/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a7984
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7984.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a7984.dir/feature_tests.cxx.o  -o cmTC_a7984 
-gmake[1]: Leaving directory `/usr/project/gitProject/MultSource_Download_LT/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_352d8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_352d8.dir/build.make CMakeFiles/cmTC_352d8.dir/build
+gmake[1]: Entering directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_352d8.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_352d8.dir/feature_tests.cxx.o -c /usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_352d8
+/home/operation/cmake-3.6.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_352d8.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_352d8.dir/feature_tests.cxx.o  -o cmTC_352d8 -rdynamic 
+gmake[1]: Leaving directory `/usr/MultSrcDownload/MultSource_Download_LT_git/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

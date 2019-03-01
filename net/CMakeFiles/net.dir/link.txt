@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnet.a  CMakeFiles/net.dir/segment.cpp.o
+/usr/bin/ranlib libnet.a

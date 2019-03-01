@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/usr/MultSrcDownload/MultSource_Download_LT_git/net/segment.cpp
+segment.h
+/usr/MultSrcDownload/MultSource_Download_LT_git/net/segment.h
+
+/usr/MultSrcDownload/MultSource_Download_LT_git/net/segment.h
+

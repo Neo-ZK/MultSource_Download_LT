@@ -13,6 +13,7 @@ public:
     Vector_g(int col):col_(col){
         printf("create Vector_g,\n");
         vG_ = new unsigned short int[col];
+        memset(vG_,0,sizeof(unsigned short int)*col);
     };
     ~Vector_g(){
         printf("delete Vector_g,\n");
@@ -58,6 +59,7 @@ public:
     Vector_content(unsigned int col):col_(col){
         printf("create Vector_content,\n");
         vContent_ = new unsigned char[col];
+        memset(vContent_,0,sizeof(unsigned char)*col);
     };
     ~Vector_content(){
         printf("delete Vector_content,\n");
@@ -70,6 +72,7 @@ public:
 
 public:
     int setValue(char* src,int len);
+    unsigned char& operator[](int colIndex);
 
 };
 
@@ -89,8 +92,8 @@ public:
     };
 //variable member
 public:
-    int row_;
-    int col_;
+    unsigned int row_;
+    unsigned int col_;
     int insertIndex_;
     std::vector<std::shared_ptr<Vector_content>> mContent_;
 //fucntion
@@ -101,8 +104,21 @@ public:
     std::shared_ptr<Vector_content>& operator[](int rowIndex);
 };
 
+//
+class Matrix_segment{
+public:
+    Matrix_segment();
+    ~Matrix_segment();
 
+public:
+    std::shared_ptr<Matrix_g> matG;
+    std::shared_ptr<Matrix_content> matC;
 
+};
+
+//function
+void uniXOR(char* dest,char* src1,char* src2,int len);
+int VectorContentXOR(Vector_content& des,Vector_content& src1,Vector_content& src2);
 #endif // MATRIX_H_INCLUDED
 
 

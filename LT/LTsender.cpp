@@ -6,11 +6,11 @@
 LTencoder::LTencoder(unsigned int K):K_(K),robustSolitionDistribution_(K){
     genRobustSolistionDistribution_();
     srand(time(0));
-};
+}
 
 LTencoder::~LTencoder(){
         printf("delete LTencoder");
-};
+}
 
 void LTencoder::genRobustSolistionDistribution_(){
     robustSolitionDistribution_.resize(K_);
@@ -24,7 +24,7 @@ void LTencoder::genRobustSolistionDistribution_(){
     double c = 0.05;
     double R = c * log((double)K_/delta) * (double)sqrt((double)K_);
 
-    for(int i = 0;i < K_;i++){
+    for(unsigned int i = 0;i < K_;i++){
         double p = R/((i+1)*K_);
         robustSolitionDistribution_[i] = robustSolitionDistribution_[i] + p;
         if(robustSolitionDistribution_[i] < (0.1/K_)){
@@ -79,13 +79,13 @@ int LTsender::send(){
         return -1;
     }
 
-    K_ = ceil((double)fileLen/packetLen_);
-    mContent_ = std::make_shared<Matrix_content>(K_,packetLen_);
+    K_ = ceil((double)fileLen/encPacketLen_);
+    mContent_ = std::make_shared<Matrix_content>(K_,encPacketLen_);
     //init encoder
     encoder_ = std::make_shared<LTencoder>(K_);
 
     //read file into memory,and store in Matrix
-    int r = readFileIntoMatrix(fileName_,K_,packetLen_);
+    int r = readFileIntoMatrix(fileName_,K_,encPacketLen_);
     if(r < 0){
         printf("error in LTsender::send");
         return -1;
@@ -98,21 +98,64 @@ int LTsender::send(){
         return -1;
     }
 
+
+
     return 1;
 }
 
-int LTsender::readFileIntoMatrix(char* fileName,int K,unsigned int packetLen){
+int LTsender::readFileIntoMatrix(char* fileName,int K,unsigned int encPacketLen){
     FILE* f = fopen(fileName,"rb");
     if(f == NULL){
         printf("error in LTsender::readFileIntoMatrix");
         return -1;
     }
     for(int i = 0;i < K;i++){
-        std::shared_ptr<Vector_content> vbuffer(new Vector_content(packetLen));
-        fread(vbuffer->vContent_,packetLen,1,f);
+        std::shared_ptr<Vector_content> vbuffer(new Vector_content(encPacketLen));
+        fread(vbuffer->vContent_,encPacketLen,1,f);
         mContent_->insertVectorToContent(vbuffer);
     }
     fclose(f);
     return 1;
 }
 
+int LTsender::genSendSegment(segment& s,int K,int degree){
+    //gen N not repeat number
+    std::vector<int> from(K);
+    for(int i = 0;i < K;i++){
+        from[i] = i;
+    }
+    std::vector<int> indexRandExtract = genNnotRepeatNum(degree,from);
+    if(indexRandExtract.empty()){
+        printf("genVector_g error");
+        return -1;
+    }
+    Vector_g vg(K);
+    Vector_content vc(encPacketLen_);
+    for(int i = 0;i < degree;i++){
+        vg[indexRandExtract[i]] = 1;
+        VectorContentXOR(vc,vc,*((*mContent_)[indexRandExtract[i]]));
+    }
+    s.header = 1;
+    s.gLen = K;
+    s.contentLen = encPacketLen_;
+
+    //memcpy()
+    return 1;
+}
+
+std::vector<int> LTsender::genNnotRepeatNum(int N,std::vector<int> from){
+    unsigned int scale = from.size();
+    std::vector<int> res;
+    if((unsigned int)N > scale){
+        printf("genNnotRepeatNum error");
+        return res;
+    }
+    res.resize(N);
+    srand(time(0));
+    for(int i = 0;i < N;i++){
+        int index = rand() % scale;
+        res[i] = from[index];
+        from.erase(from.begin()+index);
+    }
+    return res;
+}

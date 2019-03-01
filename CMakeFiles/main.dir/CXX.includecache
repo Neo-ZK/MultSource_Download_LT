@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/usr/project/gitProject/MultSource_Download_LT/main.cpp
+/usr/MultSrcDownload/MultSource_Download_LT_git/main.cpp
 iostream
 -
 LT/matrix.h
@@ -19,6 +19,8 @@ string.h
 LT/LTsender.h
 matrix.h
 LT/matrix.h
+../net/segment.h
+net/segment.h
 vector
 -
 string
@@ -41,4 +43,6 @@ assert.h
 -
 math.h
 -
+
+net/segment.h
 

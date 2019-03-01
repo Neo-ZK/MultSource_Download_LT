@@ -8,11 +8,12 @@ project(MultSource_Download_LT)
 
 aux_source_directory(. DIR_SRC)
 
-include_directories(./ ./LT)
+include_directories(./ ./LT ./net)
 
-add_subdirectory(./LT)
+add_subdirectory(LT)
+add_subdirectory(net)
 
 add_executable(main ${DIR_SRC})
 
-target_link_libraries(main LT)
+target_link_libraries(main LT net)
 

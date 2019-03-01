@@ -1,7 +1,8 @@
 #ifndef LT_H_INCLUDED
 #define LT_H_INCLUDED
 
-#include "matrix.h"
+#include <LT/matrix.h>
+#include <net/segment.h>
 #include <vector>
 #include <string>
 #include <math.h>
@@ -28,10 +29,10 @@ private:
 const static unsigned int defaltPacketLen = 1000;
 class LTsender{
 public:
-    LTsender(char* fileName,unsigned int packetLen):packetLen_(packetLen){
+    LTsender(char* fileName,unsigned int encPacketLen):encPacketLen_(encPacketLen){
         //process file name string
     };
-    LTsender(char* fileName):packetLen_(defaltPacketLen){
+    LTsender(char* fileName):encPacketLen_(defaltPacketLen){
         fileName_ = fileName;
         //process file name string
     };
@@ -40,7 +41,7 @@ public:
 public:
     int K_; //LT code length
     char* fileName_;
-    unsigned int packetLen_;
+    unsigned int encPacketLen_;//encode packet len,which is equal to Vector_content's col_
 
 private:
     std::shared_ptr<LTencoder> encoder_;
@@ -48,10 +49,12 @@ private:
 
 public:
     int send();
-    void foo();
 private:
     long int getFileLength(char* fileName);
-    int readFileIntoMatrix(char* fileName,int K,unsigned int packetLen);
+    int readFileIntoMatrix(char* fileName,int K,unsigned int encPacketLen);
+    std::vector<int> genNnotRepeatNum(int N,std::vector<int> from);
+    int genSendSegment(segment& s,int K,int degree);
+
 };
 
 
